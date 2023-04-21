@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { View, Text } from "react-native";
+import { View, ScrollView, SafeAreaView } from "react-native";
 
 const Home = () => {
   return (
