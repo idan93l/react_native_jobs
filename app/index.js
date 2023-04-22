@@ -28,6 +28,9 @@ const Home = () => {
           headerTitle: ""
         }}
       />
+      <ScrollView showsVerticalScrollIndicator={false}>
+        
+      </ScrollView>
     </SafeAreaView>
   );
 };
