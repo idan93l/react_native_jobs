@@ -15,7 +15,7 @@ const Home = () => {
 
   return (
     <SafeAreaView style={{flex: 1, backgroundColor: COLORS.lightWhite}}>
-
+      <Stack.Screen />
     </SafeAreaView>
   );
 };
