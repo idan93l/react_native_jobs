@@ -25,14 +25,12 @@ const Home = () => {
           headerRight: () => (
             <ScreenHeaderBtn iconUrl={icons.profile} dimension="100%" />
           ),
-          headerTitle: ""
+          headerTitle: "",
         }}
       />
       <ScrollView showsVerticalScrollIndicator={false}>
-        <View
-          style={{flex: 1, padding: SIZES.medium}}
-        >
-          
+        <View style={{ flex: 1, padding: SIZES.medium }}>
+          <Welcome />
         </View>
       </ScrollView>
     </SafeAreaView>
