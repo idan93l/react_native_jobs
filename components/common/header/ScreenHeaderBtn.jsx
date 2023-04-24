@@ -3,7 +3,7 @@ import { TouchableOpacity, Image } from "react-native";
 
 import styles from "./screenheader.style";
 
-const ScreenHeaderBtn = () => {
+const ScreenHeaderBtn = ({iconUrl, dimension}) => {
   return (
     <TouchableOpacity>
       <Image source={iconUrl}/>
