@@ -8,6 +8,7 @@ import {
   FlatList,
 } from "react-native";
 import { useRouter } from "expo-router";
+import { icons, SIZES } from "../../../constants";
 
 import styles from "./welcome.style";
 
