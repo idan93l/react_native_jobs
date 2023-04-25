@@ -17,7 +17,9 @@ const Welcome = () => {
 
   return (
     <View>
-      <Text>Welcome</Text>
+      <View>
+        
+      </View>
     </View>
   );
 };
