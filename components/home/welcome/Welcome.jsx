@@ -21,6 +21,10 @@ const Welcome = () => {
         <Text style={styles.userName}>Hello Idan</Text>
         <Text style={styles.welcomeMessage}>Find your dream job!</Text>
       </View>
+
+      <View>
+
+      </View>
     </View>
   );
 };
