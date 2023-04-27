@@ -23,7 +23,7 @@ const Welcome = () => {
       </View>
 
       <View style={styles.searchContainer}>
-        <View>
+        <View style={styles.searchWrapper}>
 
         </View>
       </View>
