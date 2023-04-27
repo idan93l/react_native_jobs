@@ -24,7 +24,7 @@ const Welcome = () => {
 
       <View style={styles.searchContainer}>
         <View style={styles.searchWrapper}>
-
+          <TextInput />
         </View>
       </View>
     </View>
