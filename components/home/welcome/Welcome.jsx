@@ -32,7 +32,7 @@ const Welcome = () => {
           />
         </View>
         <TouchableOpacity>
-          
+          <Image />
         </TouchableOpacity>
       </View>
     </View>
