@@ -31,6 +31,9 @@ const Welcome = () => {
             placeholder="What are you looking for?"
           />
         </View>
+        <TouchableOpacity>
+          
+        </TouchableOpacity>
       </View>
     </View>
   );
