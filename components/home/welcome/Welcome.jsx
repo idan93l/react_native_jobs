@@ -39,8 +39,8 @@ const Welcome = () => {
           />
         </TouchableOpacity>
       </View>
-      <View>
-        
+      <View style={styles.tabsContainer}>
+
       </View>
     </View>
   );
