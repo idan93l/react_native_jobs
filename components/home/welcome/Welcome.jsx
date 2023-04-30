@@ -39,6 +39,9 @@ const Welcome = () => {
           />
         </TouchableOpacity>
       </View>
+      <View>
+        
+      </View>
     </View>
   );
 };
