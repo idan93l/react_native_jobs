@@ -44,7 +44,7 @@ const Welcome = () => {
       <View style={styles.tabsContainer}>
         <FlatList data={jobTypes} renderItem={({ item }) => {
           <TouchableOpacity>
-            
+            <Text>{item}</Text>
           </TouchableOpacity>
         }}/>
       </View>
