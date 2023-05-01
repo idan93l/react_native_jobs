@@ -42,7 +42,7 @@ const Welcome = () => {
         </TouchableOpacity>
       </View>
       <View style={styles.tabsContainer}>
-        <FlatList />
+        <FlatList data={jobTypes}/>
       </View>
     </View>
   );
