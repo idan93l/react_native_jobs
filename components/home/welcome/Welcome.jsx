@@ -45,11 +45,11 @@ const Welcome = () => {
       <View style={styles.tabsContainer}>
         <FlatList
           data={jobTypes}
-          renderItem={({ item }) => {
+          renderItem={({ item }) => (
             <TouchableOpacity style={styles.tab(activeJobType, item)}>
               <Text>{item}</Text>
-            </TouchableOpacity>;
-          }}
+            </TouchableOpacity>
+          )}
         />
       </View>
     </View>
