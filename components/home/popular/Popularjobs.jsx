@@ -11,7 +11,9 @@ const Popularjobs = () => {
 
   return (
     <View style={styles.container}>
-      <View style={styles.header}></View>
+      <View style={styles.header}>
+        <Text>Popular jobs</Text>
+      </View>
     </View>
   );
 };
