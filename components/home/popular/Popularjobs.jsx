@@ -5,6 +5,7 @@ import { useRouter } from "expo-router";
 import styles from "./popularjobs.style";
 import { COLORS, SIZES } from "../../../constants";
 import PopularJobCard from "../../common/cards/popular/PopularJobCard";
+import { TouchableOpacity } from "react-native-gesture-handler";
 
 const Popularjobs = () => {
   const router = useRouter();
@@ -13,6 +14,7 @@ const Popularjobs = () => {
     <View style={styles.container}>
       <View style={styles.header}>
         <Text style={styles.headerTitle}>Popular jobs</Text>
+        <TouchableOpacity></TouchableOpacity>
       </View>
     </View>
   );
