@@ -21,7 +21,7 @@ const Popularjobs = () => {
           </TouchableOpacity>
       </View>
 
-      <View>
+      <View style={styles.cardsContainer}>
         
       </View>
     </View>
