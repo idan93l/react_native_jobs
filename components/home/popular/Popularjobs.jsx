@@ -17,21 +17,17 @@ const Popularjobs = () => {
       <View style={styles.header}>
         <Text style={styles.headerTitle}>Popular jobs</Text>
         <TouchableOpacity>
-          <Text style={styles.headerBtn}>
-            Show all
-          </Text>
-          </TouchableOpacity>
+          <Text style={styles.headerBtn}>Show all</Text>
+        </TouchableOpacity>
       </View>
 
       <View style={styles.cardsContainer}>
         {isLoading ? (
-          <ActivityIndicator size="large" colors={COLORS.primary}/>
-        ) : error ? ( 
+          <ActivityIndicator size="large" colors={COLORS.primary} />
+        ) : error ? (
           <Text>Something went wrong</Text>
         ) : (
-          <FlatList
-            
-          />
+          <FlatList data={[1, 2, 3, 4, 5, 6, 7, 8, 9]} />
         )}
       </View>
     </View>
