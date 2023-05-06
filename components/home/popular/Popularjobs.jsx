@@ -23,7 +23,10 @@ const Popularjobs = () => {
       </View>
 
       <View style={styles.cardsContainer}>
-        
+        {isLoading ? (
+          <ActivityIndicator />
+        ) : ( 
+        )}
       </View>
     </View>
   );
