@@ -9,6 +9,7 @@ import { TouchableOpacity } from "react-native-gesture-handler";
 
 const Popularjobs = () => {
   const router = useRouter();
+  const isLoading = false;
 
   return (
     <View style={styles.container}>
