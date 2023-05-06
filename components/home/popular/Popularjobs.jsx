@@ -28,6 +28,10 @@ const Popularjobs = () => {
           <ActivityIndicator size="large" colors={COLORS.primary}/>
         ) : error ? ( 
           <Text>Something went wrong</Text>
+        ) : (
+          <FlatList
+            
+          />
         )}
       </View>
     </View>
