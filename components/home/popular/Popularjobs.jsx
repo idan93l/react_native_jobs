@@ -20,6 +20,10 @@ const Popularjobs = () => {
           </Text>
           </TouchableOpacity>
       </View>
+
+      <View>
+        
+      </View>
     </View>
   );
 };
