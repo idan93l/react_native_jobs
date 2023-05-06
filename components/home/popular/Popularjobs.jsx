@@ -10,6 +10,7 @@ import { TouchableOpacity } from "react-native-gesture-handler";
 const Popularjobs = () => {
   const router = useRouter();
   const isLoading = false;
+  const error = false;
 
   return (
     <View style={styles.container}>
@@ -24,8 +25,9 @@ const Popularjobs = () => {
 
       <View style={styles.cardsContainer}>
         {isLoading ? (
-          <ActivityIndicator />
-        ) : ( 
+          <ActivityIndicator size="large" colors={COLORS.primary}/>
+        ) : error ? ( 
+          <Text>Something went wrong</Text>
         )}
       </View>
     </View>
