@@ -31,16 +31,18 @@ const useFetch = (endpoint, query) => {
     } finally {
       setIsLoading(false);
     }
-  }
+  };
 
   useEffect(() => {
     fetchData();
-  }, [])
-  
+  }, []);
+
   const refetch = () => {
     setIsLoading(true);
     fetchData();
-  }
+  };
 
   return { data, isLoading, error, refetch };
 };
+
+export default useFetch;
