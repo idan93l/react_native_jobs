@@ -45,6 +45,11 @@ const JobDetails = () => {
           />
         );
       case "About":
+        return (
+          <JobAbout 
+            
+          />
+        );
       case "Responsibilities":
       default:
         break;
