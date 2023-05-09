@@ -29,8 +29,14 @@ const Home = () => {
           headerTitle: "",
         }}
       />
+
       <ScrollView showsVerticalScrollIndicator={false}>
-        <View style={{ flex: 1, padding: SIZES.medium }}>
+        <View
+          style={{
+            flex: 1,
+            padding: SIZES.medium,
+          }}
+        >
           <Welcome
             searchTerm={searchTerm}
             setSearchTerm={setSearchTerm}
@@ -40,6 +46,7 @@ const Home = () => {
               }
             }}
           />
+
           <Popularjobs />
           <Nearbyjobs />
         </View>
